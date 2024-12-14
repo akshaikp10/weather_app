@@ -1,0 +1,117 @@
+body{
+    background-color:rgba(50, 44, 44, 0.871);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputbox{
+    margin: 20px;
+}
+
+.cityinput{
+    border: 2px solid;
+    border-color: rgb(233, 246, 241);
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+button[type="submit"]{
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: rgb(238, 238, 248);
+    font-size: 22px;
+    font-weight: lighter;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: rgb(127, 213, 233);
+}
+.box{
+    border: solid;
+    border-color: azure;
+    background: linear-gradient(to bottom, #72d1f7, #ffffff);
+    padding: 10px;
+    margin: 30px;
+    width: 610px;
+    display: flex;
+    flex-direction: column; 
+     position: relative;
+    flex-direction: column; 
+    align-items: center; 
+    border-radius: 10px;
+    padding-bottom:30px ;
+
+}
+
+
+
+.cityname{
+    margin: 0px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 55px;
+    margin-bottom: 3px;
+    
+}
+p{  
+    
+    margin: 10px;
+    font-weight: bold;
+}
+
+.tem{   
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 20px;
+    
+
+}
+
+
+
+.humidity{
+  font-size:20px ;
+  margin-top: 40px;
+  
+}
+.wind{
+    font-size:20px ;
+    
+}
+.sunrise{
+    font-size:20px ;
+    
+}
+.sunset{
+    font-size:20px ;
+    
+}
+.realtem{
+    font-size:17px ;
+    margin-top: -3px;
+}
+
+
+.dis{
+    font-style: italic;
+    font-size:25px ;
+    margin-top: -30px;
+    
+}
+
+
+.emoji{
+    font-size: 200PX;
+    margin-top: -30px;
+}
+.err{
+    font-size: 35px;
+    margin-top:200px ;
+}
